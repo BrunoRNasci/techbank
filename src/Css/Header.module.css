@@ -1,0 +1,98 @@
+@font-face{
+    font-family: MontSerrat1;
+    src: url(../fonts/static/Montserrat-Regular.ttf);
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: #022873;
+    z-index: 6;
+}
+
+.logo{
+    position: relative;
+    height: auto;
+    width: 250px;
+    bottom: 25px;
+    float: left;
+}
+
+.links{
+    position: relative;
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    float: left;  
+    top: 25px;
+    right: 55px;
+}
+
+.links a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: MontSerrat1;
+    right: 30px;
+}
+
+.links a:hover{
+    text-decoration: underline;
+}
+
+.campo_pesquisa{
+    width: 230px;
+    height: auto;
+    margin: none;
+    float: left;
+}
+
+.input_pesquisa{
+    position: relative;
+    width: 230px;
+    height: 45px;
+    border-radius: 40px;
+    font-family: MontSerrat1;
+    float: left;
+    font-size: 16px;
+    color: white;
+    background-color: rgba(217, 217, 217, 0.5);
+    top: 15px;
+    right: 110px;
+    border: none;
+    float: left;
+}
+
+.lupa{
+    position: relative;
+    width: 40px;
+    height: auto;
+    bottom: 18px;
+    left: 70px;
+    bottom: 28px;
+    float: left;
+}
+
+.area_cliente{
+    position: relative;
+    width: 100px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #03588C;
+    font-family: MontSerrat1;
+    font-size: 18px;
+    color: white;
+    border: none;
+    float: right;
+    top: 8px;
+    right: 35px;
+}
+
+.area_cliente:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.3s all;
+}

@@ -1,0 +1,63 @@
+@font-face{
+    font-family: MontSerrat1;
+    src: url(../fonts/static/Montserrat-Regular.ttf);
+}
+
+.fundo_section3{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-image: url(../imagens/fundo_section3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.previdencia{
+    position: relative;
+    width: 390px;
+    height: 240px;
+    border-radius: 20px;
+    background-color: rgba(3, 76, 140, 0.95);
+    float: left;
+    top: 280px;
+    left: 70px;
+}
+
+.previdencia h1{
+    position: relative;
+    font-family: MontSerrat1;
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    left: 30px;
+    top: 20px;
+}
+
+.mais_info{
+    position: relative;
+    width: 260px;
+    height: 60px;
+    font-family: MontSerrat1;
+    font-size: 20px;
+    color: white;
+    background-color: #4F4F4F;
+    border: none;
+    border-radius: 30px;
+    left: 30px;
+    top: 45px;
+    cursor: pointer;
+    float: left;
+}
+
+.mais_info img{
+    position: relative;
+    float: right;
+    right: 10px;
+    top: 4px;
+}
+
+.mais_info:hover{
+    transform: scale(1.1) ;
+    transition: ease-in, ease-out;
+    transition:  all 1.5s;
+}
