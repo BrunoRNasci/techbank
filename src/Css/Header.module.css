@@ -53,6 +53,7 @@
 
 .input_pesquisa{
     position: relative;
+    padding: 1%;
     width: 230px;
     height: 45px;
     border-radius: 40px;
